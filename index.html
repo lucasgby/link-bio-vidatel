@@ -1,0 +1,259 @@
+<!-- wp:html -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Vidatel Telecom - Link na Bio</title>
+    <style>
+      * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        overflow-x: hidden;
+        background: #f4f8fc;
+        color: #333;
+        padding: 10px;
+        overflow: hidden;
+      }
+
+      :root {
+        --link-bg-color: #46B893;
+      }
+
+      .container {
+        overflow-y: auto;
+        height: 90vh;
+        display: grid;
+        grid-column: 1;
+        background: linear-gradient(to bottom right, #ffffff, #f4f8fc);
+        padding: 30px 20px;
+        border-radius: 36px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 15px;
+      }
+
+      .logo img {
+        width: 60px;
+        margin-top: 12px;
+      }
+
+      .logo-text {
+        font-weight: 600;
+        color: #08316B;
+        line-height: 1.0;
+      }
+
+      .logo-text .title {
+        font-size: 28px;
+        background: linear-gradient(90deg, #08316B, #24B5DE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 2px;
+      }
+
+      .logo-text .subtitle {
+        font-size: 16px;
+        color: #08316B;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #333;
+      }
+
+      .subtitle p {
+        color: #24B5DE;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+
+      .list-links {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 20px;
+        align-items: center; /* centraliza os botões */
+      }
+
+      .link-btn {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 16px 24px;
+        border-radius: 50px;
+        border: 2px solid transparent;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(135deg, #24B5DE, #00d4ff) border-box;
+        box-shadow: 0 8px 15px rgba(36, 181, 222, 0.3);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        color: #333;
+        font-weight: 600;
+        max-width: 400px;  /* largura máxima */
+        width: 100%;       /* para ser responsivo */
+        margin: 0 auto;    /* centraliza horizontalmente */
+      }
+
+      .link-btn .content {
+        background: linear-gradient(135deg, #24B5DE, #00d4ff);
+        box-shadow: 0 4px 10px rgba(36, 181, 222, 0.5);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        transition: all 0.3s ease;
+      }
+
+      .link-btn:hover {
+        background: linear-gradient(135deg, #24B5DE, #00d4ff);
+        color: white;
+        box-shadow: 0 12px 25px rgba(36, 181, 222, 0.5);
+        transform: scale(1.05);
+      }
+
+      .link-btn:hover .content {
+        background: white;
+        color: #24B5DE;
+        box-shadow: none;
+      }
+
+      .list-links .link-btn .ph {
+        font-size: 22px;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        margin-top: 30px;
+      }
+
+      .socials {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .socials a {
+        text-decoration: none;
+      }
+
+      .socials a .ph {
+        color: #333;
+        font-size: 42px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="https://vidatel.net/wp-content/uploads/2019/08/cropped-icon-180x180.png"
+          alt="Vidatel Logo"
+        />
+        <div class="logo-text">
+          <p class="title">VIDATEL</p>
+          <p class="subtitle">TELECOMUNICAÇÕES</p>
+        </div>
+      </div>
+
+      <div class="subtitle">
+        <p>@vidatel1</p>
+        Além da Fibra Óptica!
+      </div>
+
+      <div class="list-links">
+        <a
+          class="link-btn"
+          href="https://api.whatsapp.com/send/?phone=558738319800&text=Desejo+contratar+um+servi%C3%A7o&type=phone_number&app_absent=0"
+        >
+          <div class="content">
+            <i class="ph ph-whatsapp-logo"></i>
+          </div>
+          <span>Fale com um atendente</span>
+        </a>
+
+        <a
+          class="link-btn"
+          href="https://api.whatsapp.com/send/?phone=558781381820&text=Desejo+contratar+um+servi%C3%A7o&type=phone_number&app_absent=0"
+        >
+          <div class="content">
+            <i class="ph ph-whatsapp-logo"></i>
+          </div>
+          <span>Contrate em Sitio dos Nunes</span>
+        </a>
+
+        <a class="link-btn" href="https://vidatel.net/rural/">
+          <div class="content">
+            <i class="ph ph-wifi-high"></i>
+          </div>
+          <span>Conheça nossos planos</span>
+        </a>
+
+        <a
+          class="link-btn"
+          href="https://cliente.vidatel.net/central_assinante_web/login"
+        >
+          <div class="content">
+            <i class="ph ph-file-text"></i>
+          </div>
+          <span>Segunda via de boleto</span>
+        </a>
+
+        <a
+          class="link-btn"
+          href="https://vidatel.net/trabalhe-conosco-tecnico-externo/"
+        >
+          <div class="content">
+            <i class="ph ph-read-cv-logo"></i>
+          </div>
+          <span>Trabalhe conosco</span>
+        </a>
+      </div>
+
+      <div class="footer">
+        Rua Deputado Afrânio Ribeiro de Godoy, 1052 – Serra Talhada<br />
+        (87) 3831-9800 – Seg a Sab: 07:30h às 17h
+        <div class="socials">
+          <a href="https://www.instagram.com/vidatel1/#"
+            ><i class="ph ph-instagram-logo"></i
+          ></a>
+          <a href="facebook.com/vidatel"
+            ><i class="ph ph-facebook-logo"></i
+          ></a>
+          <a href="https://www.youtube.com/@vidatel1334"
+            ><i class="ph ph-youtube-logo"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- /wp:html -->
